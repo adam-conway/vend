@@ -20,7 +20,6 @@ feature 'When a user visits a vending machine show page' do
     MachineSnack.create!(machine_id: dons.id, snack_id: snack3.id)
 
     visit machine_path(dons)
-    save_and_open_page
 
     expect(page).to have_content("Hershey: $1.50")
     expect(page).to have_content("snickers: $2.50")
