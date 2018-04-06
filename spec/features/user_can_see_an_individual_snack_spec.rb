@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 feature 'When a user visits a snack show page' do
-  scenario 'they see the location of that machine' do
+  scenario 'they see the locations of that machine' do
     owner = Owner.create(name: "Sam's Snacks")
     dons1  = owner.machines.create(location: "Don's")
     dons2  = owner.machines.create(location: "John's")
