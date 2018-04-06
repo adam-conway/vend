@@ -10,7 +10,7 @@ describe Machine do
       MachineSnack.create!(machine_id: dons.id, snack_id: snack1.id)
       MachineSnack.create!(machine_id: dons.id, snack_id: snack2.id)
 
-      expect(dons.average_price).to eq(2.00)
+      expect(dons.average_snack_price).to eq(2.00)
     end
   end
   # describe 'relationships' do
