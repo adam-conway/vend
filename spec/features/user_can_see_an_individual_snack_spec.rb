@@ -20,8 +20,8 @@ feature 'When a user visits a snack show page' do
 
     expect(page).to have_content("Name: Hershey")
     expect(page).to have_content("Price: $2.00")
-    expect(page).to have_content("Don's")
-    expect(page).to have_content("John's")
+    expect(page).to have_content("Location: Don's")
+    expect(page).to have_content("Location: John's")
     expect(page).to have_content("Don's average price: $3.00")
     expect(page).to have_content("Don's snack count: 2")
     expect(page).to have_content("John's average price: $4.00")
