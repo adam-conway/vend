@@ -23,12 +23,4 @@ describe Machine do
       expect(dons.snack_count).to eq(2)
     end
   end
-  # describe 'relationships' do
-  #   owner = Owner.create(name: "Sam's Snacks")
-  #   dons  = owner.machines.create(location: "Don's Mixed Drinks")
-  #
-  #   visit machine_path(dons)
-  #
-  #   expect(page).to have_content("Don's Mixed Drinks Vending Machine")
-  # end
 end
